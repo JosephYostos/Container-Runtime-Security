@@ -28,7 +28,7 @@ EOF
 2- deploy the pod 
 
 ```bash
-kubectl apply -f ubuntu.yml
+kubectl apply -f dev-dashboard.yml
 ```
 
 3- access the new pod 
