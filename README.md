@@ -5,16 +5,16 @@
 1- create pod :
 
 ```bash
-cd /tmp; cat > ubuntu.yml <<EOF
+cd /tmp; cat > dev-dashboard.yml <<EOF
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ubuntu
+  name: dev-dashboard
   labels:
-    app: ubuntu
+    app: dev-dashboard
 spec:
   containers:
-  - name: ubuntu
+  - name: dev-dashboard
 #    securityContext:
 #      runAsUser: 10000
 #      runAsGroup: 10000
