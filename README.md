@@ -34,7 +34,7 @@ kubectl apply -f dev-dashboard.yml
 3- access the new pod 
 
 ```bash
-kubectl exec -it ubuntu -- bash
+kubectl exec -it dev-dashboard -- bash
 ```
 
 4- install some additoin 
