@@ -75,6 +75,7 @@ ls -l /home
 Display the capabilities /check the files that have setuid permission 
 
 ```bash
+find / -perm -u=s -type f 2>/dev/null
 getcap -r / 2>/dev/null
 sudo -l
 ```
